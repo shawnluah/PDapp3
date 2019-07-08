@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".secondExercise">
+
+    <ImageView
+        android:id="@+id/ivPlank"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/plank" />
+
+    <TextView
+        android:id="@+id/tvPlankDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The plank is an excellent abdominal and core exercise. It works not only the rectus abdominis, but also the other ab muscles and the core muscles that run from the pelvis along the spine and up to the shoulder girdle. To ensure you keep your core strong and stable, add the plank to your ab workout program.\n" />
+
+    <TextView
+        android:id="@+id/tvPlankLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/linkTo2" />
+
+</LinearLayout>

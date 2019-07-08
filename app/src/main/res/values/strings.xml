@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PDapp3</string>
+    <string name = "linkTo1">
+        <a href= "https://www.youtube.com/watch?v=IODxDxX7oi4">For more additional information on push up, Click here!</a>
+    </string>
+    <string name = "linkTo2">
+        <a href= "https://www.youtube.com/watch?v=F-nQ_KJgfCY">For more additional information on plank, Click here!</a>
+    </string>
+    <string name = "linkTo3">
+        <a href= "https://www.youtube.com/watch?v=rT7DgCr-3pg">For more additional information on bench press, Click here!</a>
+    </string>
+    <string name = "linkTo4">
+        <a href= "https://www.youtube.com/watch?v=ykJmrZ5v0Oo">For more additional information on bicep curl, Click here!</a>
+    </string>
+    <string name = "linkTo5">
+        <a href= "https://www.youtube.com/watch?v=JB2oyawG9KI">For more additional information on leg raise, Click here!</a>
+    </string>
+</resources>

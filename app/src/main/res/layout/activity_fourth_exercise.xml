@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fourthExercise">
+
+    <ImageView
+        android:id="@+id/ivBicepCurl"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/bicepscurl" />
+
+    <TextView
+        android:id="@+id/tvBicepCurlDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bicep Curls are a low stress movement to develop strength in the upper body. Bicep Curls strengthen the elbow flexors namely the two bicep muscles and brachioradialis (forearm muscle).\n" />
+
+    <TextView
+        android:id="@+id/tvBicepCurlLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/linkTo4" />
+
+</LinearLayout>

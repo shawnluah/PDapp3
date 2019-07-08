@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".firstExercise">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/pushup" />
+
+    <TextView
+        android:id="@+id/tvPushUpDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The push-up is a very common strength training exercise that is used by an array of individuals interested in improving their strength, including members of the military, bodybuilders and general fitness participants. Completing push-ups is effective at developing upper body strength. There are options that all strength levels can incorporate to make the exercise easier or more difficult.\n" />
+
+    <TextView
+        android:id="@+id/tvPushupLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/linkTo1" />
+</LinearLayout>
